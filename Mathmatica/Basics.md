@@ -4,3 +4,10 @@
 ### NestList
 #### NestList[f,expr,n]
 #### gives a list of the results of applying f to expr 0 through n times.
+
+### Nest[(1 + #)^2 &, 1, 3]
+#### starting value - 1
+#### number of apply - 3
+( 1 + 1 ) ^ 2 = 4 
+( 1 + 4 ) ^ 2 = 25
+( 1 + 25 ) ^ 2 = 676 
