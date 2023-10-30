@@ -1,7 +1,7 @@
 ### Load Data
 #### csvread / readmatrix / readtable
 df = 'https://raw.githubusercontent.com/saturn70/R_Projects/main/Trees/trees.csv'
-T = readable ( df )
+T = readtable ( df )
 
 head ( T )
 (*     Girth    Height    Volume
